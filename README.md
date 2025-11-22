@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
-
+import React, { useState, useEffect, useRef } from "react";   
 // EnglishExchangeApp.jsx // Single-file React component (TailwindCSS). Default export at bottom. // Notes for integration (in comments): // - Replace mock state with real backend (WebSocket / Firebase / Supabase) for realtime chat // - Add OAuth (Google / Facebook / Apple) for authentication // - Use WebRTC for audio/video calls or integrate Jitsi/Agora // - Use translation APIs for on-the-fly translation if desired
 
 function sampleTopics() { return [ "Travel", "Culture", "News", "Tech", "Everyday Conversation", "Interview Practice", ]; }
